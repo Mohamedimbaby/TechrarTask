@@ -181,3 +181,10 @@ The app follows Clean Architecture principles with the following layers:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+<img width="1080" height="2220" alt="Screenshot_1752234614" src="https://github.com/user-attachments/assets/55e35232-0ed3-44d7-920f-ae7c5acc37f2" />
+<img width="1080" height="2220" alt="Screenshot_1752234610" src="https://github.com/user-attachments/assets/2feb01a2-5a58-489c-91c3-7b2f3b1ea4b1" />
+<img width="1080" height="2220" alt="Screenshot_1752234608" src="https://github.com/user-attachments/assets/41818e20-fb34-4ea4-9ed2-f133a573e23b" />
+
+
+
