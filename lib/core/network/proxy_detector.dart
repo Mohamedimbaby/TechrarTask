@@ -3,6 +3,7 @@ import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:network_info_plus/network_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:techrar_task/core/config/env_manager.dart';
 
 class ProxyDetectionResult {
   final bool isSecurityThreat;
@@ -82,7 +83,7 @@ class ProxyDetector {
       // Check if system proxy is enabled
       // This is a simplified check - in a real app, you'd want to do more thorough testing
       final proxySettings = HttpClient.findProxyFromEnvironment(
-        Uri.parse('https://api.example.com'),
+        Uri.parse(EnvManager.apiBaseUrl),
         environment: Platform.environment,
       );
       return proxySettings.contains('PROXY');

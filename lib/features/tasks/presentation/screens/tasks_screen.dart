@@ -1,7 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:techrar_task/core/config/app_router.dart';
 import 'package:techrar_task/core/network/proxy_state_provider.dart';
 import 'package:techrar_task/features/auth/presentation/screens/proxy_warning_screen.dart';
 import 'package:techrar_task/features/tasks/domain/entities/task_status.dart';

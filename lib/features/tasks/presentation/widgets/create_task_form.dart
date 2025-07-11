@@ -20,10 +20,6 @@ class _CreateTaskFormState extends State<CreateTaskForm> {
 
   void _submit() {
     if (_formKey.currentState!.validate()) {
-      final title = _titleController.text.trim();
-      final isCompleted = _isCompleted;
-
-
       Navigator.of(context).pop();
     }
   }

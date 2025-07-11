@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:techrar_task/core/network/proxy_state_provider.dart';
 import 'package:techrar_task/features/auth/presentation/screens/proxy_warning_screen.dart';
-import 'package:techrar_task/features/tasks/domain/entities/task_status.dart';
 import 'package:techrar_task/features/tasks/presentation/providers/task_providers.dart';
 import 'package:techrar_task/shared/widgets/task_card.dart';
 import 'package:techrar_task/shared/widgets/team_member_card.dart';

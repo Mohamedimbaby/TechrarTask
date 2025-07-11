@@ -62,8 +62,7 @@ class TeamMemberCard extends StatelessWidget {
                     color: Theme.of(context)
                         .textTheme
                         .bodySmall
-                        ?.color
-                        ?.withOpacity(0.7),
+                        ?.color,
                   ),
               maxLines: 1,
               overflow: TextOverflow.ellipsis,

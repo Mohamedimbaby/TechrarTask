@@ -52,10 +52,10 @@ class TaskCard extends StatelessWidget {
                 vertical: 4,
               ),
               decoration: BoxDecoration(
-                color: status.color.withOpacity(0.1),
+                color: status.color,
                 borderRadius: BorderRadius.circular(4),
                 border: Border.all(
-                  color: status.color.withOpacity(0.5),
+                  color: status.color,
                 ),
               ),
               child: Text(
